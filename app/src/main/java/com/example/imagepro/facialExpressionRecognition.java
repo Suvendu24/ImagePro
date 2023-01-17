@@ -3,6 +3,7 @@ package com.example.imagepro;
 import android.content.Context;
 import android.content.res.AssetManager;
 
+import org.opencv.objdetect.CascadeClassifier;
 import org.tensorflow.lite.Interpreter;
 import org.tensorflow.lite.gpu.GpuDelegate;
 
